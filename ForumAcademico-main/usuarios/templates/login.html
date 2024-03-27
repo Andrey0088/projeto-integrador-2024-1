@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórum Acadêmico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #4d6781;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 30%;
+            margin: auto;
+            overflow: hidden;
+            position: relative;
+            top: 50px;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            background:  #4d6781;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        form {
+            margin-top: 20px;
+        }
+        form input[type="email"],
+        form input[type="password"] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        form button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background: #0056b3;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background: #003d82;
+        }
+        form p {
+            text-align: center;
+        }
+        form a {
+            color: #0056b3;
+        }
+        footer {
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background: #ddd;
+            padding: 10px 0;
+        }
+        form input[type="text"],
+        form input[type="password"] {
+                width: calc(100% - 22px);
+                padding: 10px;
+                margin-bottom: 10px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FórumAcadêmico</h1>
+    </header>
+
+    <div class="container">
+        <h2>Conecte-se e compartilhe com as pessoas da sua instituição.</h2>
+        <form action="{% url 'auth:login' %}" method="POST"> 
+            {% csrf_token %}
+            <input type="text" class="form-control" id="username" name="username" required>
+            <input type="password" name="senha" placeholder="senha" required>
+            {% if messages %}
+            <ul class="messages">
+              {% for message in messages %}
+               <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+              {% endfor %}
+           </ul>
+            {% endif %}   
+            <button type="submit" class="btn btn-primary btn-block">Entrar</button>
+        </form>
+        
+        <p>Não tem uma conta? <a href="{% url 'auth:cadastro' %}">Crie uma agora</a></p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 FórumAcadêmico</p>
+    </footer>
+</body>
+</html>

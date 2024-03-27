@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #4d6781;
+        }
+        .form-container {
+            height: 100vh; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .cadastro-form {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+        .cadastro-form input[type="text"],
+        .cadastro-form input[type="email"],
+        .cadastro-form input[type="password"],
+        .cadastro-form input[type="number"],
+        .cadastro-form select,
+        .cadastro-form input[type="submit"] {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ced4da; 
+            border-radius: 5px;
+        }
+        .cadastro-form input[type="submit"] {
+            background-color: #007bff;
+            color: #ffffff;
+            cursor: pointer;
+        }
+        .cadastro-form input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+         .underline-text {
+              text-decoration: underline;
+            }          
+    </style>
+    
+</head>
+
+<body>
+
+    <main class="container mt-3">
+        <div class="form-container">
+            <div class="cadastro-form">
+                <h2 class="mb-4">Cadastro</h2>
+                <form action="{% url 'auth:cadastro' %}" method="POST">
+                    {% csrf_token %}
+                    <input type="text" placeholder="Username..." name="username">
+                    <input type="email" placeholder="Email..." name="email">
+                    <input type="password" placeholder="Senha..." name="senha">
+                    <select name="qualificacao">
+                        <option value="" disabled selected>Nível de Qualificação</option>
+                        <option value="G">Graduando</option>
+                        <option value="M">Mestrado</option>
+                        <option value="P">Professor</option>
+                    </select>
+                    <input type="number" placeholder="Semestre..." name="semestre">
+                    <input type="submit" value="Cadastrar">
+                    <div class="text-center">
+                        <label class="underline-text m-2">Cadastro realizado com sucesso</label>
+                        <a href="/auth/login/" class="btn btn-primary">Iniciar sessão</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
