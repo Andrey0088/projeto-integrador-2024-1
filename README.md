@@ -33,4 +33,5 @@ Com funcionalidades que permitem a publicação de perguntas, a resposta por par
 <!-- Coloque seu nome, uma foto sua e uma pequena bio sobre você na seguinte tabela: -->
 |  |  |
 |:-------------:|:------------------------------------------------------------:|
-|  <img src="perfil.jpg" width="150px"></br> **Vinícius Padilha Vieira** | Meu nome é Vinícius Padilha Vieira, e atualmente estou cursando o quarto semestre do curso de Ciências da Computação na Universidade Federal de Mato Grosso (UFMT). Desde o começo da minha trajetória acadêmica, tenho consistentemente direcionado meus esforços e estudos para aprofundar meus conhecimentos e habilidades na área de desenvolvimento back-end. Este caminho tem sido marcado pela exploração e domínio de tecnologias avançadas, incluindo Java Spring Boot e, mais recentemente, a framework Django.
+|  <img src="perfil.jpg" width="150px"></br> **Andrey Luiggi** | Meu nome é Andrey Luiggi, e atualmente estou cursando o quarto semestre do curso de Ciências da Computação na Universidade Federal de Mato Grosso (UFMT). Procuro aprimorar meus conhecimentos da área de desenvolvimento back-end, explorando e aprendendo novas tecnologias constantemente, como Java Spring Boot a Framework Django.
+
