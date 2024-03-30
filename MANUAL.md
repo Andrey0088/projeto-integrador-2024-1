@@ -29,6 +29,9 @@ Clique em Logout
 
 <img src="logout.png" width="700px">
 
+# Pesquisar entre as perguntas já feitas
+Escreva os termos a pesquisar no campo no canto superior direito e pressione enter.
+
 
 # Fazer Publicação
 clique no botão publicar
