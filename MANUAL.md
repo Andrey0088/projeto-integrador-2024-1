@@ -51,7 +51,7 @@ Se a disciplina que você deseja fazer perguntas sobre não existir no sistema a
 # Ver respostas
 Clique em Comentários
 
-<img src="verresposta.png" width="700px">
+<img src="comentarios.png" width="700px">
 
 # Responder
 
