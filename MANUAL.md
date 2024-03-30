@@ -16,6 +16,20 @@ coloque uma foto de perfil clicando em "escolher arquivo, esse campo também nã
 
 clique em cadastrar
 
+# Fazer Login
+Após fazer cadastro, aparecerá o botão "Iniciar sessão", clique nele.
+
+Na página de login, preencha os campos com seu username e sua senha.
+
+<img src="login.png" width="700px">
+
+# Deslogar
+
+Clique em Logout
+
+<img src="logout.png" width="700px">
+
+
 # Fazer Publicação
 clique no botão publicar
 
