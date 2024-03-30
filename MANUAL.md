@@ -32,14 +32,16 @@ clique em publicar
 # Adicionar nova disciplina
 Se a disciplina que você deseja fazer perguntas sobre não existir no sistema ainda, você pode criar essa disciplina, indo em Matérias e em Adicionar nova Disciplina, no Menu lateral.
 
-<img src="novaDisc.png" width="700px">
+<img src="novadisc.png" width="700px">
 
 # Responder
 
 Clicar em Comentários
+
 <img src="comentarios.png" width="700px">
 
 Escreva sua resposta
+
 <img src="escrever.png" width="700px">
 
 Clicar em Enviar
@@ -47,6 +49,7 @@ Clicar em Enviar
 # Apagar resposta
 
 clicar em apagar resposta
+
 <img src="apagarresposta.png" width="700px">
 
 # Filtrar o acesso por disciplinas
@@ -56,6 +59,7 @@ no menu, clique em materias, para exibir as matérias e então selecione
 # Ver gráficos de perguntas feitas por disciplina
 
 Clicar em Gráficos! no menu à esquerda
+
 <img src="graficos.png" width="700px">
 
 # Ver perfil 
@@ -63,6 +67,7 @@ Clicar em Gráficos! no menu à esquerda
 ## Ver minhas publicações
 
 Clique em Meu Perfil , no Menu à esquerda
+
 <img src="meuperfil.png" width="700px">
 
 ## Editar Perfil
