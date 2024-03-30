@@ -25,7 +25,7 @@ Com funcionalidades que permitem a publicação de perguntas, a resposta por par
 
 ## Documentação
 
-* [Documentação (para desenvolvedores)](DOCUMENTACAO.md)
+* [Documentação (para desenvolvedores)](DOCUMENTAÇÃO.md)
 * [Manual (para usuários)](MANUAL.md)
 
 ## Sobre o autor
