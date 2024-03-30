@@ -64,7 +64,7 @@ def editar_perfil(request, user_id):
 ```
 
 <h3>Diagrama Entidade Relacional (DER)</h3>
-<img src="DER.jpg" width="1000px" style="border-radius: 50%;">
+<img src="DER.png" width="1000px" style="border-radius: 50%;">
 
 # GUIA BASICO DE NAVEGAÇÃO - desenvolvedor
 ```python
