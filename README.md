@@ -17,9 +17,11 @@
 <img src="ForumAcadêmico.png" width="1000px">
 
 <!-- Substitua o seguinte parágrafo por um resumo do seu projeto: -->
-"Gestão Escolar Integrada" refere-se a uma abordagem holística e sistemática para administrar todos os aspectos de uma instituição educacional, desde o planejamento acadêmico até a administração de recursos, passando pela interação entre alunos, professores e a direção. Essa abordagem busca unificar diversos processos e sistemas dentro da escola para melhorar a eficiência, a comunicação e a qualidade do ensino.
+"FórumAcademico" representa uma inovação no campo da educação, oferecendo uma plataforma interativa de blog onde alunos podem compartilhar dúvidas acadêmicas e receber respostas de colegas e professores. Esta abordagem moderna para a educação estimula a criação de uma comunidade online de aprendizado colaborativo, transformando a maneira como o conhecimento é compartilhado e adquirido em ambientes educacionais.
 
-O projeto "Gestão Escolar Integrada" visa simplificar a maneira como as instituições de ensino gerenciam suas operações acadêmicas, facilitando a integração entre alunos, professores e diretores. Com uma plataforma que oferece funcionalidades como CRUDs, planos de ensino, sistema de alugar equipamentos, sistema de notas e aprovações, e análises de desempenho, então para simplificar o projeto unificará as classes educacionais. O projeto proporciona uma visão clara do ambiente acadêmico, permitindo decisões mais informadas e aprimorando a experiência educacional para todos os envolvidos. Este projeto busca melhorar a eficiência administrativa e fomentar um ambiente de aprendizado mais conectado e acessível.
+O projeto "FórumAcademico" tem como objetivo principal facilitar um ambiente onde o diálogo e a troca de conhecimentos sejam incentivados, permitindo que alunos publiquem suas perguntas e recebam respostas detalhadas de outros alunos ou professores. Ao funcionar como uma rede social educativa, esta plataforma não apenas promove a interação direta entre membros da comunidade acadêmica mas também oferece um espaço para que o conhecimento seja construído coletivamente.
+
+Com funcionalidades que permitem a publicação de perguntas, a resposta por parte de outros usuários, e a organização de conteúdo por categorias ou disciplinas, o "FórumAcademico" busca simplificar e enriquecer a experiência educacional. Este projeto visa não só melhorar a comunicação dentro do ambiente acadêmico mas também proporcionar uma ferramenta essencial para o suporte ao aprendizado, tornando a educação mais acessível, interativa e adaptada às necessidades dos alunos e professores. Em suma, o "FórumAcademico" é uma plataforma que fomenta uma comunidade de aprendizado mais engajada e conectada.
 
 ## Documentação
 
