@@ -48,6 +48,12 @@ Se a disciplina que você deseja fazer perguntas sobre não existir no sistema a
 
 <img src="novadisc.png" width="700px">
 
+# Apagar publicação
+
+Clique em apagar
+
+<img src="apagarpub.png" width="700px">
+
 # Ver respostas
 Clique em Comentários
 
