@@ -18,14 +18,21 @@ clique em cadastrar
 
 # Fazer Publicação
 clique no botão publicar
+
 <img src="botaopublicar.png" width="700px">
 
 escreva a pergunta no campo de texto
 
 selecione a disciplina 
+
 <img src="selecionardisc.png" width="700px">
 
 clique em publicar
+
+# Adicionar nova disciplina
+Se a disciplina que você deseja fazer perguntas sobre não existir no sistema ainda, você pode criar essa disciplina, indo em Matérias e em Adicionar nova Disciplina, no Menu lateral.
+
+<img src="novaDisc.png" width="700px">
 
 # Responder
 
