@@ -8,7 +8,7 @@ Preencha os campos, como nome de usuário, que será usado para fazer login, sen
 <img src="cadastro22.png" width="700px">
 
 Selecione o Nível de qualificação, se for professor, aluno ou mestrando
-<img src="cadastro33.png" width="700px" style="display: block; margin: 0 auto;">
+<img src="cadastro33.png" width="700px" style="display: flex; justify-content: center;">
 
 se for aluno, selecione o semestre em que está(campo não obrigatório)
 
